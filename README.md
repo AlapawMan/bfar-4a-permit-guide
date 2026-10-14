@@ -1,6 +1,8 @@
 # Gratuitous Permit Guide — BFAR Region IV-A
 
-Version 1 · prepared 14 October 2026. A mobile-first static applicant guide with a four-step wizard, conditional checklists, searchable FAQs, downloadable preparation aids and printable results. No framework, build process, account, database or paid dependency.
+Easy-to-read edition. Short explanations, a word guide, simpler results and a high school project option. Teacher help is suggested, not imposed as a legal requirement.
+
+Version 2 · prepared 14 October 2026. A mobile-first static applicant guide with a four-step wizard, conditional checklists, searchable FAQs, downloadable preparation aids and printable results. No framework, build process, account, database or paid dependency.
 
 ## Open locally
 

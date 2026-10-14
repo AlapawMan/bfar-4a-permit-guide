@@ -1,4 +1,4 @@
-# Version 1 verification
+# Version 2 verification
 
 Checked 14 October 2026 using the installed Chrome browser, with automated interaction and visual review.
 
@@ -11,7 +11,7 @@ Checked 14 October 2026 using the installed Chrome browser, with automated inter
 - Full four-step wizard and results, including undergraduate/graduate fee guidance.
 - Checklist persistence after reload and the same answers; isolation after changed answers.
 - User-entered markup rendered as plain text rather than executable HTML.
-- FAQ search, empty state and restoration of all 20 FAQs.
+- FAQ search, empty state and restoration of all 23 FAQs.
 - Sixty-day deadline crossing a year boundary (31 December 2026 → 1 March 2027).
 - All local navigation targets and referenced assets/downloads returned successfully.
 - Print media shows the personalized plan and suppresses the surrounding guide/navigation.
@@ -20,9 +20,12 @@ Checked 14 October 2026 using the installed Chrome browser, with automated inter
 - JavaScript-disabled browser retains complete-guide content, downloads and fallback notice.
 - No browser JavaScript errors in the tested flow.
 - Visual inspection of the desktop homepage, mobile homepage/result and print-media layout.
+- High school / school-project flow leads to BFAR confirmation rather than an assumed college-thesis category or fee.
+- 15 word-guide entries and collapsed detailed-rule section.
+- Larger question text, plain-language choices, brief next actions and expandable full checklist requirements.
 
 ## Limits
 
-Not a full WCAG certification or a test across every browser/device. Actual printer pagination varies by browser, paper and print settings. A real GitHub Pages deployment has not been performed; all paths are relative and there is no build dependency. External source URLs and email delivery are not guaranteed by local-link checks. No application or email was sent and no payment was made.
+Not a full WCAG certification, formal reading-level assessment, student usability study or a test across every browser/device. Actual printer pagination varies by browser, paper and print settings. Version 2 has not been deployed by the assistant; all paths are relative and there is no build dependency. External source URLs and email delivery are not guaranteed by local-link checks. No application or email was sent and no payment was made.
 
 The original uploaded samples and earlier applicant conversations were unavailable. Official FAO text was checked, but regional operating instructions and current delegation/permit decisions require BFAR confirmation as detailed in CONTENT-SOURCES.md.
