@@ -15,3 +15,51 @@ body{font-size:17px;line-height:1.7} .hero-sub{font-size:18px} .hero h1{font-siz
 /* Keep long email addresses and scientific names inside narrow screens. */
 main, .result-tile, .download-card, .word-grid { overflow-wrap: anywhere; }
 select, input, textarea { min-width: 0; max-width: 100%; }
+
+/* Refined student-first visual system */
+:root{--ink:#183447;--muted:#526875;--teal:#176b58;--pale:#eef5ed;--paper:#fffaf0;--line:#dce5dc;--gold:#f4b942;--radius:20px}
+html{scroll-padding-top:100px}
+.site-header{backdrop-filter:blur(12px);background:rgba(255,250,240,.94)}
+.hero{background:radial-gradient(ellipse at 85% 20%,#ffe5ad 0,transparent 28%),linear-gradient(120deg,#f1f7e9,#fff3dc);padding:76px 0 70px}
+.hero h1{max-width:720px;color:#183447}
+.hero-sub{color:#425a68}
+.eyebrow{color:#176b58}
+.primary{background:#176b58;box-shadow:0 5px 0 #0e4f43}
+.primary:hover{background:#0e594a;transform:translateY(-1px)}
+.button,.download-card,.small-card,.fee-card,.contact-card{transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease}
+.secondary{border-color:#7d9c8d;background:rgba(255,255,255,.58)}
+.hero-card{box-shadow:0 20px 55px #18344712;border-radius:22px}
+.intro-notice{border-left-color:#e6a929;background:#fff5d9}
+.beginner-start{padding-top:56px;padding-bottom:38px}
+.basics-grid{gap:20px}
+.small-card{background:#fff;border-radius:16px;padding:26px;box-shadow:0 7px 24px #1834470a}
+.big-number{background:#176b58;color:#fff;width:42px;height:42px}
+.section{padding-top:76px;padding-bottom:76px}
+#wizard-app{box-shadow:0 12px 40px #1834470c;border-radius:20px}
+.stepper{background:#f1f5ec}
+.stepper li[aria-current]{background:#e3f1e7;border-color:#176b58}
+input:not([type=checkbox]),select,textarea{border-radius:10px;border-color:#9aada7}
+input:focus,select:focus,textarea:focus{border-color:#176b58}
+.process-overview{background:#eef5ed;border:1px solid #dce8dc}
+.flow li::marker{color:#176b58}
+.download-card{border-radius:15px;box-shadow:0 6px 20px #18344708}
+.download-card:hover,.small-card:hover,.fee-card:hover{transform:translateY(-2px);box-shadow:0 12px 28px #18344712}
+.fee-card{border-radius:14px}
+.contact-card,.deadline-card{border-radius:16px}
+.tag{border-radius:999px;padding:5px 10px}
+.guide-index a{padding:3px 0}
+summary{transition:background-color .16s ease}
+summary:hover{background:#f1f5ec}
+:focus-visible{outline:3px solid #dc8d00;outline-offset:4px}
+@media(max-width:740px){
+ .wrap{width:calc(100% - 32px)}
+ .hero{padding:45px 0 42px}
+ .hero h1{font-size:clamp(39px,11vw,49px);line-height:1.08}
+ .section{padding:52px 0}
+ .beginner-start{padding-top:42px}
+ .small-card{padding:22px}
+ .mobile-nav{grid-template-columns:repeat(5,1fr);box-shadow:0 -8px 25px #18344710}
+ .mobile-nav a{font-size:10px}
+}
+@media(hover:hover){.button:hover{transform:translateY(-1px)}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition-duration:.01ms!important;animation-duration:.01ms!important;animation-iteration-count:1!important}}
