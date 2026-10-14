@@ -1,0 +1,26 @@
+ILLUSTRATIVE DRAFT — NOT AN OFFICIAL BFAR FORM
+Replace every bracketed field. Confirm the receiving office and current addressee.
+
+[Date]
+[Confirmed BFAR official / designation / office]
+
+Subject: Request for Gratuitous Permit — [research title]
+
+Dear [designation/name]:
+
+I am [name, applicant category], affiliated with [institution]. I request evaluation of my application for the proposed research, [title]. The study aims to [brief objectives].
+
+Proposed species (scientific names): [list]
+Proposed quantities in grams, with optional specimen counts: [by species and site]
+Collection sites and coordinates: [list]
+Proposed collection date range: [range, subject to permit approval]
+Collection methods and all personnel/collectors: [details]
+Specimen source: [wild/cultured/purchased/other]
+Funding and foreign affiliation/collaboration: [disclose accurately]
+Protected/CITES status and any known toxin/pharmacological/commercial properties: [verified information or questions for BFAR]
+
+Attached are [list documents applicable to the pathway]. Please confirm the applicable permit, processing office and any additional information needed.
+
+Sincerely,
+[Applicant name / signature]
+[Institution, address, phone and email]
